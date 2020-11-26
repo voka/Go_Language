@@ -19,3 +19,19 @@ GO는 어디 코드든 다운로드 받아서 사용할 수 있다. -> 하지만
 그다음 프로젝트 폴더를 만들고 main.go라는 파일을 VS code에서 열면 여러가지 업데이트와 설치에 관한 알림이 뜨는데 다 해주면 된다.
 
 껏다가 키면서 계속 해주면 된다.
+
+
+!! git 재연결 -> git remote add origin 주소 하면 재 연결 된다 !!
+
+컴파일이 필요하다면 무조건 go의 파일 이름은 main.go가 되야 한다.
+
+컴파일러는 파일 이름중 main인 것부터 찾기 때문이다.
+
+package main -> import 방식
+
+func main(){//함수 선언 방식
+}
+
+출력은 fmt.println("~~") 로 하는데 fmt를 적자마자 위쪽에 pakcage "fmt"라는게 생겨났다 ㅋㅋ
+
+https://tailwindcss.com/ 요기 지린다 이거가지고 css파일 대체 가능함 내가 볼떄 ㅇㅇ
